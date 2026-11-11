@@ -2,3 +2,5 @@ streamlit
 PyMuPDF
 requests
 google-genai
+FinMind
+pandas
