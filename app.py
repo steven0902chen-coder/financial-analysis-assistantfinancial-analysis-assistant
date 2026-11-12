@@ -136,9 +136,9 @@ with col_key:
 with col_model:
     selected_model = st.selectbox(
         "AI 分析模型選擇：",
-        options=["gemini-3.0-flash", "gemini-3.0-pro", "gemini-2.5-flash"],
+        options=["gemini-2.5-flash", "gemini-2.5-pro", "gemini-3-flash-preview", "gemini-3-pro-preview"],
         index=0,
-        help="預設使用最新一代 gemini-3.0-flash（速度最快、穩定度高）；若需深度複雜推理可切換至 gemini-3.0-pro。"
+        help="預設使用穩定度與速度最佳的 gemini-2.5-flash；亦可切換至最新 Gemini 3 系列預覽版模型。"
     )
 
 st.markdown("---")
