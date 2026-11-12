@@ -146,4 +146,4 @@ st.markdown("---")
 # 控制面板
 st.subheader("查詢與分析條件")
 
-col1, col2
+col1, col2 = st.columns([2, 1])
